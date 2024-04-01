@@ -1,0 +1,118 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(138, 44, 214);
+    background-image: url("");
+    background-position: center;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a {
+    background-image: url("cadbury-logo-vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    width: 300px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.features {
+    background: rgb(247, 241, 225);
+    color: gray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img {
+    border: 1px solid white;
+    top:-60px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+.about {
+    background: rgb(138, 44, 214);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.about-image{
+    margin-top:30px;
+}
+
+.about-text, .about-image {
+    width: 45%;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.about-image img {
+    height: 200px;
+    width: 300px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #804cd9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}
